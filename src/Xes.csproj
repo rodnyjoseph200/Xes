@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Xes</Title>
+    <Authors>rjoseph</Authors>
+    <Company>rjoseph</Company>
+    <Description>A package containing useful libraries for handling strings, dates, currencies, etc.</Description>
+    <PackageProjectUrl>https://github.com/rodnyjoseph200/Xes</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>rjoseph;strings;dates;currencies;simply</PackageTags>
+    <PackageReleaseNotes>A package containing useful libraries for handling strings, dates, currencies, etc.</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/rodnyjoseph200/Xes</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryBranch>main</RepositoryBranch>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
